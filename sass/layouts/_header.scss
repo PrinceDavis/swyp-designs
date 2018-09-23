@@ -1,0 +1,47 @@
+.header {
+  width: 100%;
+  border-bottom: 1px solid $color-gray;
+  margin-bottom: $small-gutter;
+  &__image-box {
+    position: relative;
+    margin-bottom: $small-gutter;
+  }
+
+  &__image-box {
+    height: 2rem;
+  }
+
+  &__logo-box {
+    position: absolute;
+    left: -1rem;
+  }
+
+  &__hamburger-box {
+    position: absolute;
+    right: 0;
+    top: 1px;
+  }
+
+  &__logo {
+    height: 4rem;
+  }
+
+  &__hamburger-image {
+    height: 2rem;
+  }
+
+  .search-box {
+    margin-bottom: 1rem;
+    &__input {
+      width: 100%;
+      height: 3rem;
+      border: 1.3px solid $color-gray;
+      padding: 1rem;
+      border-radius: 0.4rem;
+
+      background-image: url(../img/search.svg);
+      background-repeat: no-repeat;
+      background-position: right;
+    }
+  }
+}

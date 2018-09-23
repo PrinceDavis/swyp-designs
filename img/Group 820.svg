@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65.875 65.876">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #e6e3e3;
+        stroke-width: 4px;
+      }
+
+      .cls-2 {
+        fill: #e6e3e3;
+      }
+    </style>
+  </defs>
+  <g id="Group_820" data-name="Group 820" transform="translate(-558.917 -420.478)">
+    <path id="part" class="cls-1" d="M21.519,0A21.519,21.519,0,1,1,0,21.519" transform="matrix(-0.602, 0.799, -0.799, -0.602, 621.992, 449.181)"/>
+    <path id="part-2" data-name="part" class="cls-1" d="M43.039,0A21.519,21.519,0,0,1,21.519,21.519,21.519,21.519,0,0,1,0,0" transform="matrix(-0.017, -1, 1, -0.017, 592.231, 474.932)"/>
+    <rect id="Rectangle_240" data-name="Rectangle 240" class="cls-2" width="10" height="5" transform="matrix(0.799, 0.602, -0.602, 0.799, 606.212, 426.477)"/>
+  </g>
+</svg>

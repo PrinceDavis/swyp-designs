@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1925.188 136.64">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #400842;
+      }
+
+      .cls-2, .cls-4 {
+        opacity: 0.05;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #ecedf0;
+      }
+
+      .cls-5 {
+        fill: rgba(224,227,234,0.14);
+        opacity: 0.3;
+      }
+    </style>
+  </defs>
+  <g id="Group_853" data-name="Group 853" transform="translate(2.665 -162.366)">
+    <rect id="Rectangle_229" data-name="Rectangle 229" class="cls-1" width="1920" height="131" transform="translate(0 163)"/>
+    <g id="Symbol_2_13" data-name="Symbol 2 – 13" class="cls-2" transform="translate(-267.792 -2144.328)">
+      <circle id="Ellipse_64" data-name="Ellipse 64" class="cls-3" cx="17.606" cy="17.606" r="17.606" transform="translate(1754.664 2350.401)"/>
+    </g>
+    <ellipse id="Ellipse_97" data-name="Ellipse 97" class="cls-4" cx="25.415" cy="25.415" rx="25.415" ry="25.415" transform="translate(1611.042 177.534)"/>
+    <ellipse id="Ellipse_98" data-name="Ellipse 98" class="cls-4" cx="27.915" cy="27.915" rx="27.915" ry="27.915" transform="translate(454.042 200.534)"/>
+    <ellipse id="Ellipse_99" data-name="Ellipse 99" class="cls-4" cx="15.915" cy="15.915" rx="15.915" ry="15.915" transform="translate(331.042 234.534)"/>
+    <path id="Path_245" data-name="Path 245" class="cls-5" d="M0,109.124,447.664,24.6h3.63L3.63,137.777" transform="translate(4.546 137.799) rotate(3)"/>
+    <path id="Path_845" data-name="Path 845" class="cls-5" d="M494.374,46.851,4.143,107.808H0L495.17,24.065" transform="translate(1423.892 173.931) rotate(-2)"/>
+  </g>
+</svg>

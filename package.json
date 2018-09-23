@@ -1,0 +1,14 @@
+{
+  "name": "user-frontend-service",
+  "version": "1.0.0",
+  "description": "Frontend application for swyp users to give data to banks",
+  "main": "index.js",
+  "author": "Ossaija ThankGod <codebugsolved@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.3"
+  }
+}
