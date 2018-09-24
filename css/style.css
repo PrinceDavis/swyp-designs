@@ -11,8 +11,30 @@ body {
   padding: 3rem;
   box-sizing: border-box; }
 
-.margin-bottom {
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.7; }
+
+.primary-header__main {
+  font-family: "Source Sans Pro";
+  display: block;
+  font-size: 3.2rem;
+  font-weight: 400;
+  text-align: center; }
+
+.primary-header__sub {
+  display: block;
+  font-weight: 300;
+  font-size: 2rem;
+  letter-spacing: -1px;
+  text-align: justify; }
+
+.margin-bottom--medium {
   margin-bottom: 4rem; }
+
+.margin-bottom--small {
+  margin-bottom: 2rem; }
 
 .row {
   width: 100%;
@@ -77,7 +99,7 @@ body {
   .header__logo {
     height: 4rem; }
   .header__hamburger-image {
-    height: 2rem; }
+    height: 1.5rem; }
   .header .search-box {
     margin-bottom: 1rem; }
     .header .search-box__input {
@@ -90,5 +112,27 @@ body {
       background-repeat: no-repeat;
       background-position: right; }
 
+.btn:link, .btn:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  border-radius: 10rem;
+  padding: 0.7rem 4.5rem;
+  display: inline-block;
+  transition: transform 0.2s; }
+
+.btn--primary {
+  background-color: #e90052;
+  color: #fff; }
+
+.btn:hover, .btn:focus {
+  transform: translateY(-0.3rem);
+  box-shadow: 0 1rem 2rem rgba(14, 14, 14, 0.2); }
+
+.btn:active {
+  transform: translateY(-0.1rem);
+  box-shadow: 0 0.5rem 1rem rgba(14, 14, 14, 0.2); }
+
 .hero-section {
   margin-bottom: 4rem; }
+  .hero-section .hero-text-box {
+    text-align: center; }
