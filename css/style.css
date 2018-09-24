@@ -20,13 +20,13 @@ body {
   font-family: "Source Sans Pro";
   display: block;
   font-size: 3.2rem;
-  font-weight: 400;
+  font-weight: 600;
   text-align: center; }
 
 .primary-header__sub {
   display: block;
-  font-weight: 300;
-  font-size: 2rem;
+  font-weight: 400;
+  font-size: 1.6rem;
   letter-spacing: -1px;
   text-align: justify; }
 
