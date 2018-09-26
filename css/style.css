@@ -75,8 +75,11 @@ body {
 .col-5 {
   width: 41.66%; }
 
-.col-6 {
+.col-6--margin {
   width: calc((100% - 3rem) / 2); }
+
+.col-6 {
+  width: 50%; }
 
 .col-7 {
   width: 58.33%; }
@@ -130,6 +133,19 @@ body {
       background-image: url(../img/search.svg);
       background-repeat: no-repeat;
       background-position: right; }
+
+.footer__menu-item-box {
+  position: relative;
+  height: 4rem;
+  border-bottom: 1px solid #eee; }
+
+.footer__menu-item {
+  height: 4rem;
+  padding-top: 1rem;
+  display: block;
+  text-align: center; }
+  .footer__menu-item--right-border {
+    border-right: 1px solid #eee; }
 
 .btn:link, .btn:visited {
   text-decoration: none;
