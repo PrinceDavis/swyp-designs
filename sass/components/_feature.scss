@@ -1,0 +1,54 @@
+.feature {
+  font-size: $default-font;
+
+  &__img-level-3-box {
+    height: 13rem;
+    width: 13rem;
+    margin: 0 auto;
+    border-radius: 2.5rem;
+    background-color: $color-primary;
+    border: 0.5px solid $color-white;
+    position: relative;
+  }
+
+  &__img-level-2-box {
+    height: 11rem;
+    width: 11rem;
+    position: absolute;
+    background-color: $color-white;
+    top: 50%;
+    left: 50%;
+    border-radius: 2rem;
+    transform: translate(-50%, -50%);
+  }
+
+  &__img-innerbox {
+    width: 70%;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &__img {
+    height: 100%;
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  &__text-box {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  &__heading {
+    text-align: center;
+  }
+
+  &__paragraph {
+    text-align: justify;
+    font-weight: 300;
+  }
+}
