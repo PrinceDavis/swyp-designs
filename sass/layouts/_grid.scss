@@ -25,7 +25,7 @@
 }
 
 .col-6 {
-  width: 50%;
+  width: calc((100% - 3rem) / 2);
 }
 
 .col-7 {

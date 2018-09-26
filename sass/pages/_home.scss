@@ -1,7 +1,21 @@
+.header-box {
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
 .hero-section {
-  margin-bottom: $medium-gutter;
-
   .hero-text-box {
     text-align: center;
   }
+}
+
+.partners-section {
+  padding: 5rem 2rem;
+}
+
+.features-section {
+  padding: 3rem 0;
+  color: $color-white;
+  font-family: "lato";
+  background-image: url(../img/mobile-background.svg);
 }

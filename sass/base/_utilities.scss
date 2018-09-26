@@ -1,7 +1,19 @@
-.margin-bottom--medium {
+.u-center-text {
+  text-align: center;
+}
+
+.u-margin-bottom--medium {
   margin-bottom: $medium-gutter;
 }
 
-.margin-bottom--small {
+.u-margin-bottom--small {
   margin-bottom: $small-gutter;
+}
+
+.u-margin-right--small {
+  margin-right: $small-gutter;
+}
+
+.u-padding--small {
+  padding: $small-gutter;
 }

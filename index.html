@@ -13,104 +13,158 @@
 
 <body>
   <header class="header">
-    <div class="header__image-box">
-      <div class="header__logo-box">
-        <img src="img/logo.png" alt="Swyp Logo" class="header__logo">
+    <div class="header-box">
+      <div class="header__image-box">
+        <div class="header__logo-box">
+          <img src="img/logo.png" alt="Swyp Logo" class="header__logo">
+        </div>
+        <div class="header__hamburger-box">
+          <img src="img/hamgurger.svg" alt="Nav Button" class="header__hamburger-image">
+        </div>
       </div>
-      <div class="header__hamburger-box">
-        <img src="img/hamgurger.svg" alt="Nav Button" class="header__hamburger-image">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-12">
-        <div class="search-box">
-          <input type="search" class="search-box__input" placeholder="Search">
+      <div class="row">
+        <div class="col-12">
+          <div class="search-box">
+            <input type="search" class="search-box__input" placeholder="Search">
+          </div>
         </div>
       </div>
     </div>
   </header>
   <main>
-    <section class="hero-section">
+    <section class="hero-section u-margin-bottom--medium u-padding--small">
       <div class="row">
-        <div class="col-6 col-6--mobile margin-bottom--small">
+        <div class="col-6 col--mobile u-margin-bottom--small">
           <div class="hero-image-box">
             <img src="img/mobile-hero.svg" alt="Hero Image" class="hero-image-box__picture">
           </div>
         </div>
-        <div class="col-6 col-6--mobile">
+        <div class="col-6 col--mobile">
           <div class="hero-text-box">
-            <h1 class="primary-header margin-bottom--small">
-              <span class="primary-header__main">Queueing is stressful</span>
-              <span class="primary-header__sub">
-                We made swyp to ensure you never get to experience queueing, filling
-                boring bank forms & completing transactions in bank halls again.
-              </span>
-            </h1>
-            <a href="partners.html" class="btn btn--primary">Get Started</a>
+            <h1 class="primary-heading u-margin-bottom--small">
+              <h1 class="primary-heading u-margin-bottom--small">
+                <span class="primary-heading__main">Queueing is stressful</span>
+                <span class="primary-heading__sub">
+                  We made swyp to ensure you never get to experience queueing, filling
+                  boring bank forms & completing transactions in bank halls again.
+                </span>
+              </h1>
+              <a href="partners.html" class="btn btn--primary">Get Started</a>
           </div>
         </div>
       </div>
     </section>
-    <section class="partners-section">
-      <div class="u-center-text u-margin-small">
-        <h2 class="heading-secondary">Our Partners</h2>
+    <section class="partners-section u-margin-bottom--medium">
+      <div class="u-center-text u-margin-bottom--small">
+        <h2 class="secondary-heading">Our Partners</h2>
       </div>
       <div class="partners-box">
-
+        <div class="slideshow-box">
+          <div class="slideshow-box__slide fade">
+            <div class="row">
+              <div class="col-6 u-margin-right--small">
+                <img src="img/bank-logo-gt.png" class="slideshow-box__image">
+              </div>
+              <div class="col-6">
+                <img src="img/bank-logo-union.png" class="slideshow-box__image">
+              </div>
+            </div>
+          </div>
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
       </div>
     </section>
-    <section class="features">
-      <div class="u-center-text u-margin-small">
-        <h2 class="heading-secondary">Swyp Benefits</h2>
+    <section class="features-section u-margin-bottom--medium">
+      <div class="u-center-text u-margin-bottom--small">
+        <h2 class="secondary-heading ">Swyp Benefits</h2>
       </div>
       <div class="row">
-        <div class="col-4">
-          <div class="feature-box">
-            <div class="feature-box__icon-box">
+        <div class="col-4 col--mobile">
+          <div class="feature u-margin-bottom--medium">
+            <div class="u-margin-bottom--small">
+              <div class="feature__img-level-3-box">
+                <div class="feature__img-level-2-box">
+                  <div class="feature__img-innerbox">
+                    <img src="img/feature-1.svg" alt="Feature 1 image" class="feature__img">
+                  </div>
+                </div>
+              </div>
 
             </div>
-            <h3 class="heading-tertiary">Intuitive and assistive forms</h3>
-            <p class="feature-box__text">
-              Swyp can predict most forms answers and goes ahead to help you fill them.
-            </p>
+            <div class="feature__text-box">
+              <h3 class="tertiary-heading feature__heading">All Intuitive & assistive forms</h3>
+              <p class="feature__paragraph">
+                Swyp can predict most forms answers and goes ahead to help you fill them.
+              </p>
+            </div>
           </div>
         </div>
-        <div class="col-4">
-          <div class="feature-box">
-            <div class="feature-box__icon-box">
-
+        <div class="col-4 col--mobile">
+          <div class="feature u-margin-bottom--medium">
+            <div class="u-margin-bottom--small">
+              <div class="feature__img-level-3-box">
+                <div class="feature__img-level-2-box">
+                  <div class="feature__img-innerbox">
+                    <img src="img/feature-2.svg" alt="Feature 2 image" class="feature__img">
+                  </div>
+                </div>
+              </div>
             </div>
-            <h3 class="heading-tertiary">All bank forms under one roof</h3>
-            <p class="feature-box__text">
-              No need to go to different banks to update BVN, with swyp you can provide all your banks need information
-              without leaving a spot.
-            </p>
+
+            <div class="feature__text-box">
+              <h3 class="tertiary-heading feature__heading">All bank forms under one roof</h3>
+
+              <p class="feature__paragraph">
+                No need to go to different banks to update BVN, with swyp you can provide all your banks need
+                information
+                without leaving a spot.
+              </p>
+            </div>
           </div>
         </div>
-        <div class="col-4">
-          <div class="feature-box">
-            <div class="feature-box__icon-box">
+        <div class="col-4 col--mobile">
+          <div class="feature u-margin-bottom--medium">
 
+            <div class="u-margin-bottom--small">
+              <div class="feature__img-level-3-box">
+                <div class="feature__img-level-2-box">
+                  <div class="feature__img-innerbox">
+                    <img src="img/feature-3.svg" alt="Feature 3 image" class="feature__img">
+                  </div>
+                </div>
+              </div>
             </div>
-            <h3 class="heading-tertiary">Complete Transaction under 5 minutes</h3>
-            <p class="feature-box__text">
-              On a deadline to get that paperwork for your next travelling done, with swyp you can complete
-              transactions under 5 minutes.
-            </p>
+
+            <div class="feature__text-box">
+              <h3 class="tertiary-heading feature__heading">Complete Transaction under 5 minutes</h3>
+
+              <p class="feature__paragraph">
+                On a deadline to get that paperwork for your next travelling done, with swyp you can complete
+                transactions under 5 minutes.
+              </p>
+            </div>
           </div>
         </div>
       </div>
-      <a href="partners.html" class="btn btn-primary">Fill a form now</a>
+      <div class="feature-btn u-center-text">
+        <a href="partners.html" class="btn btn--primary">Fill a form now</a>
+      </div>
     </section>
   </main>
   <footer>
     <div class="link">
       <div class="row">
         <div class="col-6">
-          <a href="">Why Swyp?</a>
+          <div class="footer__text-box">
+            <a href="">Why Swyp?</a>
+          </div>
         </div>
         <div class="col-6">
-          <a href="">FAQ</a>
+          <div class="footer__text-box">
+            <a href="">FAQ</a>
+          </div>
         </div>
       </div>
     </div>
@@ -126,6 +180,7 @@
       </div>
     </div>
   </footer>
+  <script src="js/app.js"></script>
 </body>
 
 </html>
