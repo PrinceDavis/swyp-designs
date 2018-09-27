@@ -1,4 +1,6 @@
 .footer {
+  font-size: $default-font;
+
   &__menu-item-box {
     position: relative;
     height: 4rem;
@@ -8,8 +10,11 @@
   &__menu-item {
     height: 4rem;
     padding-top: 1rem;
+    color: $color-black;
+
     display: block;
     text-align: center;
+    text-decoration: none;
 
     &--right-border {
       border-right: 1px solid #eee;

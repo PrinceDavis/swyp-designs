@@ -1,0 +1,25 @@
+.bank-box {
+  border-bottom: 2px solid $color-secondary;
+  box-shadow: 0 0.5rem 2rem rgba($color-black, 0.1);
+
+  &__header {
+    text-align: center;
+  }
+
+  &__logo {
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+  }
+
+  &__img {
+    height: 5rem;
+    width: 7rem;
+  }
+
+  &__footer {
+    width: 20%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+  }
+}

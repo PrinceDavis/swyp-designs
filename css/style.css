@@ -49,6 +49,9 @@ body {
 .u-margin-bottom--small {
   margin-bottom: 2rem; }
 
+.u-margin-bottom--thin {
+  margin-bottom: 1rem; }
+
 .u-margin-right--small {
   margin-right: 2rem; }
 
@@ -75,8 +78,8 @@ body {
 .col-5 {
   width: 41.66%; }
 
-.col-6--margin {
-  width: calc((100% - 3rem) / 2); }
+.col-6-margin {
+  width: calc((100% - 2rem) / 2); }
 
 .col-6 {
   width: 50%; }
@@ -134,18 +137,21 @@ body {
       background-repeat: no-repeat;
       background-position: right; }
 
-.footer__menu-item-box {
-  position: relative;
-  height: 4rem;
-  border-bottom: 1px solid #eee; }
-
-.footer__menu-item {
-  height: 4rem;
-  padding-top: 1rem;
-  display: block;
-  text-align: center; }
-  .footer__menu-item--right-border {
-    border-right: 1px solid #eee; }
+.footer {
+  font-size: 1.6rem; }
+  .footer__menu-item-box {
+    position: relative;
+    height: 4rem;
+    border-bottom: 1px solid #eee; }
+  .footer__menu-item {
+    height: 4rem;
+    padding-top: 1rem;
+    color: #0e0e0e;
+    display: block;
+    text-align: center;
+    text-decoration: none; }
+    .footer__menu-item--right-border {
+      border-right: 1px solid #eee; }
 
 .btn:link, .btn:visited {
   text-decoration: none;
@@ -166,6 +172,27 @@ body {
 .btn:active {
   transform: translateY(-0.1rem);
   box-shadow: 0 0.5rem 1rem rgba(14, 14, 14, 0.2); }
+
+.btn-text:link, .btn-text:visited {
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 12rem;
+  display: inline-block;
+  transition: transform 0.2s;
+  background-color: #fff;
+  border: 1px solid #dbe1eb;
+  padding: 0.1rem 2rem;
+  color: #dbe1eb; }
+
+.btn-text:hover, .btn-text:focus {
+  transform: translateY(-0.3rem);
+  box-shadow: 0 1rem 2rem rgba(14, 14, 14, 0.2);
+  border: 1px solid #e90052; }
+
+.btn-text:active {
+  transform: translateY(-0.1rem);
+  box-shadow: 0 0.5rem 1rem rgba(14, 14, 14, 0.2);
+  border: 1px solid #e90052; }
 
 /* Slideshow container */
 .slideshow-box {
@@ -258,6 +285,23 @@ body {
     text-align: justify;
     font-weight: 300; }
 
+.bank-box {
+  border-bottom: 2px solid #e90052;
+  box-shadow: 0 0.5rem 2rem rgba(14, 14, 14, 0.1); }
+  .bank-box__header {
+    text-align: center; }
+  .bank-box__logo {
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 1rem; }
+  .bank-box__img {
+    height: 5rem;
+    width: 7rem; }
+  .bank-box__footer {
+    width: 20%;
+    margin: 0 auto;
+    margin-bottom: 1rem; }
+
 .header-box {
   padding-top: 2rem;
   padding-left: 2rem;
@@ -274,3 +318,6 @@ body {
   color: #fff;
   font-family: "lato";
   background-image: url(../img/mobile-background.svg); }
+
+.banks-section {
+  padding: 0 2rem; }
