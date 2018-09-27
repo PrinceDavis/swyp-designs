@@ -107,7 +107,7 @@ body {
 
 .header {
   width: 100%;
-  border-bottom: 1px solid #dbe1eb;
+  border-bottom: 1px solid #eee;
   margin-bottom: 2rem; }
   .header__image-box {
     position: relative;
@@ -130,7 +130,7 @@ body {
     .header .search-box__input {
       width: 100%;
       height: 3rem;
-      border: 1.3px solid #dbe1eb;
+      border: 1.3px solid #eee;
       padding: 1rem;
       border-radius: 0.4rem;
       background-image: url(../img/search.svg);
@@ -152,6 +152,10 @@ body {
     text-decoration: none; }
     .footer__menu-item--right-border {
       border-right: 1px solid #eee; }
+  .footer__text-heading {
+    display: inline; }
+  .footer__img {
+    height: 2rem; }
 
 .btn:link, .btn:visited {
   text-decoration: none;
@@ -190,6 +194,29 @@ body {
   border: 1px solid #e90052; }
 
 .btn-text:active {
+  transform: translateY(-0.1rem);
+  box-shadow: 0 0.5rem 1rem rgba(14, 14, 14, 0.2);
+  border: 1px solid #e90052; }
+
+.tab-head__btn:link, .tab-head__btn:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  display: inline-block;
+  transition: transform 0.2s;
+  padding: 0 1rem; }
+
+.tab-head__btn--active {
+  color: #0e0e0e; }
+
+.tab-head__btn--dull {
+  color: #dbe1eb; }
+
+.tab-head__btn:hover, .tab-head__btn:focus {
+  transform: translateY(-0.3rem);
+  box-shadow: 0 1rem 2rem rgba(14, 14, 14, 0.2);
+  border: 1px solid #e90052; }
+
+.tab-head__btn:active {
   transform: translateY(-0.1rem);
   box-shadow: 0 0.5rem 1rem rgba(14, 14, 14, 0.2);
   border: 1px solid #e90052; }
@@ -299,6 +326,16 @@ body {
     width: 7rem; }
   .bank-box__footer {
     width: 20%;
+    margin: 0 auto;
+    margin-bottom: 1rem; }
+
+.tab-head {
+  height: 3rem;
+  border-bottom: 1px solid #eee; }
+  .tab-head--active {
+    border-bottom: 3px solid #0e0e0e; }
+  .tab-head__content {
+    width: 50%;
     margin: 0 auto;
     margin-bottom: 1rem; }
 

@@ -13,67 +13,63 @@
 
 <body>
   <header class="header">
-    <div class="header__image-box">
-      <div class="header__logo-box">
-        <img src="img/logo.png" alt="Swyp Logo" class="header__logo">
+    <div class="header-box">
+      <div class="header__image-box">
+        <div class="header__logo-box">
+          <img src="img/logo.png" alt="Swyp Logo" class="header__logo">
+        </div>
+        <div class="header__hamburger-box">
+          <img src="img/hamgurger.svg" alt="Nav Button" class="header__hamburger-image">
+        </div>
       </div>
-      <div class="header__hamburger-box">
-        <img src="img/hamgurger.svg" alt="Nav Button" class="header__hamburger-image">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-12">
-        <div class="search-box">
-          <input type="search" class="search-box__input" placeholder="Search">
+      <div class="row">
+        <div class="col-12">
+          <div class="search-box">
+            <input type="search" class="search-box__input" placeholder="Search">
+          </div>
         </div>
       </div>
     </div>
   </header>
   <main>
-    <div class="row">
-      <div class="col-6">
-        <span class="st-icon-pandora">Individual</span>
-      </div>
-      <div class="col-6"><span>Corporate</span></div>
-    </div>
-    <div class="row">
-      <div class="col-12">
-        <div class="category-box">
-          <div class="category-box__icon-box">
-            <i></i>
+    <section class="tab-head-section">
+      <div class="row">
+        <div class="col-6 tab-head tab-head--active">
+          <div class="tab-head__content">
+            <a href="#" class="tab-head__btn tab-head__btn--active">Individual</a>
           </div>
-          <div class="category-box__text-box">
-            <h3 class="tertiary-heading"></h3>
-          </div>
-          <div class="category-box__arrow-box">
-            <i></i>
+        </div>
+        <div class="col-6 tab-head">
+          <div class="tab-head__content">
+            <a href="#" class="tab-head__btn tab-head__btn--dull">Corporate</a>
           </div>
         </div>
       </div>
-    </div>
+    </section>
+    <section class="tab-content-section">
+      <div class="row">
+        <div class="col-12">
+          <div class="rectangle-box">
+            <div class="rectangle-box__icon-box">
+              <i></i>
+            </div>
+            <div class="rectangle-box__text-box">
+              <h3 class="tertiary-heading"></h3>
+            </div>
+            <div class="rectangle-box__arrow-box">
+              <i></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
   <footer>
-    <div class="link">
-      <div class="row">
-        <div class="col-6">
-          <a href="">Why Swyp?</a>
-        </div>
-        <div class="col-6">
-          <a href="">FAQ</a>
-        </div>
-      </div>
+    <div class="footer__text">
+      <h4 class="footer__text-heading">Powered by</h4>
+      <img src="img/logo.png" alt="Swyp logo" class="footer__img">
     </div>
-    <div class="social">
-      <div class="row col-4">
-        <a href=""><i class="base-facebook"></i></a>
-      </div>
-      <div class="row col-4">
-        <a href=""><i class="base-twitter"></i></a>
-      </div>
-      <div class="row col-4">
-        <a href=""><i class="base-linkedin"></i></a>
-      </div>
-    </div>
+
   </footer>
 </body>
 

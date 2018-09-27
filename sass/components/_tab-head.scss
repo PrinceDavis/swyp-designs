@@ -1,0 +1,13 @@
+.tab-head {
+  height: 3rem;
+  border-bottom: 1px solid $color-gray-light;
+  &--active {
+    border-bottom: 3px solid $color-black;
+  }
+
+  &__content {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+  }
+}

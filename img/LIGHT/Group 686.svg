@@ -2,12 +2,12 @@
   <defs>
     <style>
       .cls-1 {
-        fill: #38003c;
+        fill: #101010;
         stroke: #38003c;
       }
 
       .cls-2 {
-        fill: #e90052;
+        fill: #0f0f0f;
         font-size: 20px;
         font-family: Lato-Bold, Lato;
         font-weight: 700;
