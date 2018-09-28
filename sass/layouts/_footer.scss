@@ -1,6 +1,10 @@
 .footer {
   font-size: $default-font;
 
+  &--simple {
+    height: 8rem;
+  }
+
   &__menu-item-box {
     position: relative;
     height: 4rem;
@@ -22,13 +26,23 @@
   }
 
   &__text {
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 4rem;
+    position: relative;
   }
 
   &__text-heading {
     display: inline;
+    font-weight: 300;
   }
 
+  &__img-box {
+    position: absolute;
+    top: 3.8rem;
+    left: 7.5rem;
+  }
   &__img {
-    height: 2rem;
+    height: 4.5rem;
   }
 }

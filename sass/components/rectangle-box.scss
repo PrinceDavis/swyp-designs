@@ -1,0 +1,120 @@
+.rectangle-box {
+  height: 6rem;
+  width: 100%;
+  display: flex;
+  position: relative;
+  color: $color-gray-light;
+  border-bottom: 1px solid $color-gray-light;
+
+  &__link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+    z-index: 1;
+  }
+
+  &__img-box {
+    width: 20%;
+    padding: 1.5rem;
+  }
+
+  &__img {
+    height: 3.5rem;
+    width: 5rem;
+  }
+
+  &__text-box {
+    width: 60%;
+    padding: 1.5rem;
+    padding-left: 0.5rem;
+  }
+
+  &__arrow-box {
+    width: 10%;
+    padding: 1.5rem;
+    font-size: $default-font;
+  }
+
+  &--registration:hover {
+    background-color: $color-gray;
+    color: $color-black;
+    & .rectangle-box__img {
+      content: url(../img/registration_clear.svg);
+    }
+  }
+
+  &--mandate:hover {
+    background-color: $color-gray;
+    color: $color-black;
+    & .rectangle-box__img {
+      content: url(../img/mandate_clear.svg);
+    }
+  }
+
+  &--transfer:hover {
+    background-color: $color-gray;
+    color: $color-black;
+    & .rectangle-box__img {
+      content: url(../img/transfer_clear.svg);
+    }
+  }
+
+  &--account_opening:hover {
+    background-color: $color-gray;
+    color: $color-black;
+    & .rectangle-box__img {
+      content: url(../img/account_opening_clear.svg);
+    }
+  }
+
+  &--change_details:hover {
+    background-color: $color-gray;
+    color: $color-black;
+    & .rectangle-box__img {
+      content: url(../img/change_details_clear.svg);
+    }
+  }
+
+  &--internet_banking:hover {
+    background-color: $color-gray;
+    color: $color-black;
+    & .rectangle-box__img {
+      content: url(../img/internet_banking_clear.svg);
+    }
+  }
+
+  &--cards:hover {
+    background-color: $color-gray;
+    color: $color-black;
+    & .rectangle-box__img {
+      content: url(../img/cards_clear.svg);
+    }
+  }
+
+  &--loans:hover {
+    background-color: $color-gray;
+    color: $color-black;
+    & .rectangle-box__img {
+      content: url(../img/loans_clear.svg);
+    }
+  }
+
+  &--investement:hover {
+    background-color: $color-gray;
+    color: $color-black;
+    & .rectangle-box__img {
+      content: url(../img/investement_clear.svg);
+    }
+  }
+
+  &--complaints:hover {
+    background-color: $color-gray;
+    color: $color-black;
+    & .rectangle-box__img {
+      content: url(../img/complaints_clear.svg);
+    }
+  }
+}
