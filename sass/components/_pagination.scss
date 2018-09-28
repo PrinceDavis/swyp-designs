@@ -1,0 +1,38 @@
+.pagination {
+  width: 60%;
+  margin: 0 auto;
+  font-size: $default-font;
+
+  &__items {
+    list-style: none;
+  }
+
+  &__item {
+    display: inline-block;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 1.5rem;
+    font-size: 2rem;
+    border: 1px solid $color-gray-light;
+    border-radius: 0.9rem;
+    &--page-number {
+      padding-left: 1.2rem;
+    }
+
+    &:first-child {
+      padding-left: 0.5rem;
+    }
+
+    &:last-child {
+      padding-left: 1rem;
+    }
+
+    &--disable {
+      background-color: $color-gray-light;
+    }
+    &--active {
+      background-color: $color-black;
+      color: $color-white;
+    }
+  }
+}

@@ -1,0 +1,50 @@
+.form-box {
+  height: 7rem;
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 3px;
+  box-shadow: 1rem 1rem 3rem rgba($color-black, 0.2);
+
+  &__img-box {
+    width: 13%;
+    background-color: $color-gray;
+  }
+
+  &__img-innerbox {
+    width: 4rem;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+  }
+
+  &__img {
+    height: 4rem;
+    width: 4rem;
+  }
+
+  &__text-box {
+    width: 64%;
+    padding-top: 2rem;
+    padding-left: 0.5rem;
+  }
+
+  &__timer-box {
+    width: 23%;
+  }
+
+  &__timer-innerbox {
+    position: relative;
+    margin-left: 1rem;
+    padding-top: 0.3rem;
+  }
+
+  &__timer {
+    height: 6rem;
+  }
+
+  &__timer-text {
+    position: absolute;
+    left: 1.8rem;
+    top: 2.4rem;
+  }
+}

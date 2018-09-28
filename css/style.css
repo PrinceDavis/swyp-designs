@@ -40,6 +40,11 @@ body {
   font-size: 2rem;
   font-weight: 300; }
 
+.fourth-heading {
+  font-family: "Source Sans Pro";
+  font-size: 1.5rem;
+  font-weight: 300; }
+
 .u-center-text {
   text-align: center; }
 
@@ -429,6 +434,66 @@ body {
     color: #0e0e0e; }
     .rectangle-box--complaints:hover .rectangle-box__img {
       content: url(../img/complaints_clear.svg); }
+
+.form-box {
+  height: 7rem;
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 3px;
+  box-shadow: 1rem 1rem 3rem rgba(14, 14, 14, 0.2); }
+  .form-box__img-box {
+    width: 13%;
+    background-color: #dbe1eb; }
+  .form-box__img-innerbox {
+    width: 4rem;
+    margin: 0 auto;
+    margin-top: 1.5rem; }
+  .form-box__img {
+    height: 4rem;
+    width: 4rem; }
+  .form-box__text-box {
+    width: 64%;
+    padding-top: 2rem;
+    padding-left: 0.5rem; }
+  .form-box__timer-box {
+    width: 23%; }
+  .form-box__timer-innerbox {
+    position: relative;
+    margin-left: 1rem;
+    padding-top: 0.3rem; }
+  .form-box__timer {
+    height: 6rem; }
+  .form-box__timer-text {
+    position: absolute;
+    left: 1.8rem;
+    top: 2.4rem; }
+
+.pagination {
+  width: 60%;
+  margin: 0 auto;
+  font-size: 1.6rem; }
+  .pagination__items {
+    list-style: none; }
+  .pagination__item {
+    display: inline-block;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 1.5rem;
+    font-size: 2rem;
+    border: 1px solid #eee;
+    border-radius: 0.9rem; }
+    .pagination__item--page-number {
+      padding-left: 1.2rem; }
+    .pagination__item:first-child {
+      padding-left: 0.5rem; }
+    .pagination__item:last-child {
+      padding-left: 1rem; }
+    .pagination__item--disable {
+      background-color: #eee; }
+    .pagination__item--active {
+      background-color: #0e0e0e;
+      color: #fff; }
 
 .header-box {
   padding-top: 2rem;

@@ -8,7 +8,7 @@
   &__menu-item-box {
     position: relative;
     height: 4rem;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid $color-gray-light;
   }
 
   &__menu-item {
@@ -21,7 +21,7 @@
     text-decoration: none;
 
     &--right-border {
-      border-right: 1px solid #eee;
+      border-right: 1px solid $color-gray-light;
     }
   }
 
