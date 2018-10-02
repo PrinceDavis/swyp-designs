@@ -22,4 +22,84 @@
     margin-bottom: 1rem;
     text-align: center;
   }
+
+  &--registration:hover {
+    background-color: $color-gray;
+    color: $color-black;
+    .form-type__img {
+      content: url(../img/registration_clear.svg);
+    }
+  }
+
+  &--mandate:hover {
+    background-color: $color-gray;
+    color: $color-black;
+    .form-type__img {
+      content: url(../img/mandate_clear.svg);
+    }
+  }
+
+  &--transfer:hover {
+    background-color: $color-gray;
+    color: $color-black;
+    .form-type__img {
+      content: url(../img/transfer_clear.svg);
+    }
+  }
+
+  &--account_opening:hover {
+    background-color: $color-gray;
+    color: $color-black;
+    .form-type__img {
+      content: url(../img/account_opening_clear.svg);
+    }
+  }
+
+  &--change_details:hover {
+    background-color: $color-gray;
+    color: $color-black;
+    .form-type__img {
+      content: url(../img/change_details_clear.svg);
+    }
+  }
+
+  &--internet_banking:hover {
+    background-color: $color-gray;
+    color: $color-black;
+    .form-type__img {
+      content: url(../img/internet_banking_clear.svg);
+    }
+  }
+
+  &--cards:hover {
+    background-color: $color-gray;
+    color: $color-black;
+    .form-type__img {
+      content: url(../img/cards_clear.svg);
+    }
+  }
+
+  &--loans:hover {
+    background-color: $color-gray;
+    color: $color-black;
+    .form-type__img {
+      content: url(../img/loans_clear.svg);
+    }
+  }
+
+  &--investement:hover {
+    background-color: $color-gray;
+    color: $color-black;
+    .form-type__img {
+      content: url(../img/investement_clear.svg);
+    }
+  }
+
+  &--complaints:hover {
+    background-color: $color-gray;
+    color: $color-black;
+    .form-type__img {
+      content: url(../img/complaints_clear.svg);
+    }
+  }
 }

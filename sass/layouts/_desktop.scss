@@ -27,7 +27,7 @@
   }
 
   // Home page
-  .mobile {
+  .mob-content {
     display: none;
   }
 
@@ -118,7 +118,7 @@
     background-color: mintcream;
 
     &__main {
-      .des-content {
+      .desktop-contents {
         display: flex;
         flex-wrap: wrap;
       }

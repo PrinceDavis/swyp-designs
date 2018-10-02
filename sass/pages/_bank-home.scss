@@ -1,3 +1,6 @@
+.bank-home__main {
+  color: $color-gray-light;
+}
 .main-content {
   width: 70%;
   margin-right: 2rem;
@@ -7,4 +10,7 @@
   padding: 1rem;
   background-color: $color-white;
   width: calc(100% - 70% - 2rem);
+  color: $color-black;
 }
+
+

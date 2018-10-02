@@ -14,52 +14,56 @@
 
 <body class="bank-home">
   <header class="header">
-    <div class="mobile">
-      <div class="mobile__image-box">
-        <div class="mobile__logo-box">
-          <img src="img/logo.png" alt="Swyp Logo" class="mobile__logo">
+    <div class="header-mobile mob-content">
+      <div class="header-mobile__image-box">
+        <div class="header-mobile__logo-box">
+          <img src="img/logo.png" alt="Swyp Logo" class="header-mobile__logo">
         </div>
-        <div class="mobile__hamburger-box">
-          <img src="img/hamgurger.svg" alt="Nav Button" class="mobile__hamburger-image">
+        <div class="header-mobile__hamburger-box">
+          <img src="img/hamgurger.svg" alt="Nav Button" class="header-mobile__hamburger-image">
         </div>
       </div>
       <div class="row">
-        <div class="mobile__search-box">
-          <input type="search" class="mobile__search-input" placeholder="Search">
+        <div class="header-mobile__search-box">
+          <input type="search" class="header-mobile__search-input" placeholder="Search">
+          <div class="header-mobile__search-img-box">
+            <img src="img/search.svg" alt="Magnifying glass" class="header-mobile__search-img">
+          </div>
         </div>
+
       </div>
     </div>
-    <div class="row desktop breath">
-      <div class="col-6 desktop__right-nav">
-        <div class="desktop__logo-box">
-          <img src="img/logo.png" alt="Swyp Logo" class="desktop__logo">
+    <div class="row header-desktop des-content">
+      <div class="col-6 header-desktop__right-nav">
+        <div class="header-desktop__logo-box">
+          <img src="img/logo.png" alt="Swyp Logo" class="header-desktop__logo">
         </div>
-        <nav class="desktop__nav">
-          <ul class="desktop__nav-list">
-            <li class="desktop__nav-item"><a href="partners.html">Banks</a></li>
-            <li class="desktop__nav-item"><a href="#">How it works</a></li>
+        <nav class="header-desktop__nav">
+          <ul class="header-desktop__nav-list">
+            <li class="header-desktop__nav-item"><a href="partners.html">Banks</a></li>
+            <li class="header-desktop__nav-item"><a href="#">How it works</a></li>
           </ul>
         </nav>
       </div>
-      <div class="col-6 desktop__left-nav">
-        <div class="desktop__search-box">
-          <input type="text" class="desktop__search-input" placeholder="Search">
-          <div class="desktop__search-img-box">
-            <img src="img/search.svg" alt="Magnifying glass" class="desktop__search-img">
+      <div class="col-6 header-desktop__left-nav">
+        <div class="header-desktop__search-box">
+          <input type="text" class="header-desktop__search-input" placeholder="Search">
+          <div class="header-desktop__search-img-box">
+            <img src="img/search.svg" alt="Magnifying glass" class="header-desktop__search-img">
           </div>
         </div>
-        <a href="#" class="desktop__btn">Sign Up</a>
+        <a href="#" class="header-desktop__btn">Sign Up</a>
 
       </div>
     </div>
   </header>
   <main class="bank-home__main">
 
-    <section class="section-title desktop u-margin-bottom--medium">
+    <section class="section-title des-content u-margin-bottom--medium">
       <h1>GT Bank</h1>
     </section>
 
-    <div class="mobile mob-content">
+    <div class="mob-content">
       <section class="mob-tab-head-section">
         <div class="row">
           <div class="mob-tab-head mob-tab-head--active">
@@ -257,7 +261,7 @@
       </section>
     </div>
 
-    <div class="desktop breath des-content">
+    <div class="des-content breath desktop-contents">
       <section class="main-content">
         <section class="des-tab-head-section u-margin-bottom--medium">
           <a href="#" class="des-tab-head__btn des-tab-head__btn--active u-margin-right--small">Individual</a>
@@ -267,7 +271,7 @@
         <section class="des-tab-content-section">
           <div class="row u-margin-bottom--small">
             <div class="col-3">
-              <div class="form-type">
+              <div class="form-type form-type--registration">
                 <a href="forms.html"><span class="rectangle-box__link"></span></a>
                 <div class="form-type__img-box">
                   <img src="img/registration_dull.svg" class="form-type__img" alt="Registration">
@@ -279,7 +283,7 @@
 
             </div>
             <div class="col-3">
-              <div class="form-type">
+              <div class="form-type form-type--mandate">
                 <a href="forms.html"><span class="rectangle-box__link"></span></a>
                 <div class="form-type__img-box">
                   <img src="img/mandate_dull.svg" class="form-type__img" alt="Mandate">
@@ -290,7 +294,7 @@
               </div>
             </div>
             <div class="col-3">
-              <div class="form-type">
+              <div class="form-type form-type--transfer">
                 <a href="forms.html"><span class="rectangle-box__link"></span></a>
                 <div class="form-type__img-box">
                   <img src="img/transfer_clear.svg" class="form-type__img" alt="Transfer">
@@ -301,7 +305,7 @@
               </div>
             </div>
             <div class="col-3">
-              <div class="form-type">
+              <div class="form-type form-type--account_opening">
                 <div class="form-type__img-box">
                   <img src="img/account_opening_dull.svg" class="form-type__img" alt="Account Opening">
                 </div>
@@ -314,7 +318,7 @@
 
           <div class="row u-margin-bottom--small">
             <div class="col-3">
-              <div class="form-type">
+              <div class="form-type form-type--change_details">
                 <a href="forms.html"><span class="rectangle-box__link"></span></a>
                 <div class="form-type__img-box">
                   <img src="img/change_details_dull.svg" class="form-type__img" alt="Change Of Details">
@@ -326,7 +330,7 @@
 
             </div>
             <div class="col-3">
-              <div class="form-type">
+              <div class="form-type form-type--internet_banking">
                 <a href="forms.html"><span class="rectangle-box__link"></span></a>
                 <div class="form-type__img-box">
                   <img src="img/internet_banking_dull.svg" class="form-type__img" alt="Internet Banking">
@@ -337,7 +341,7 @@
               </div>
             </div>
             <div class="col-3">
-              <div class="form-type">
+              <div class="form-type form-type--cards">
                 <a href="forms.html"><span class="rectangle-box__link"></span></a>
                 <div class="form-type__img-box">
                   <img src="img/cards_dull.svg" class="form-type__img" alt="Cards">
@@ -348,7 +352,7 @@
               </div>
             </div>
             <div class="col-3">
-              <div class="form-type">
+              <div class="form-type form-type--loans">
                 <a href="forms.html"><span class="rectangle-box__link"></span></a>
                 <div class="form-type__img-box">
                   <img src="img/loans_dull.svg" class="form-type__img" alt="Loans">
@@ -362,7 +366,7 @@
 
           <div class="row u-margin-bottom--medium">
             <div class="col-3">
-              <div class="form-type">
+              <div class="form-type form-type--investement">
                 <a href="forms.html"><span class="rectangle-box__link"></span></a>
                 <div class="form-type__img-box">
                   <img src="img/investement_dull.svg" class="form-type__img" alt="Investement">
@@ -374,7 +378,7 @@
 
             </div>
             <div class="col-3">
-              <div class="form-type">
+              <div class="form-type form-type--complaints">
                 <a href="forms.html"><span class="rectangle-box__link"></span></a>
                 <div class="form-type__img-box">
                   <img src="img/complaints_dull.svg" class="form-type__img" alt="Complaints">
