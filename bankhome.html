@@ -9,223 +9,412 @@
   <link rel="shortcut icon" type="image/png" href="img/favicon.png">
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body>
+<body class="bank-home">
   <header class="header">
-    <div class="header-box">
-      <div class="header__image-box">
-        <div class="header__logo-box">
-          <img src="img/logo.png" alt="Swyp Logo" class="header__logo">
+    <div class="mobile">
+      <div class="mobile__image-box">
+        <div class="mobile__logo-box">
+          <img src="img/logo.png" alt="Swyp Logo" class="mobile__logo">
         </div>
-        <div class="header__hamburger-box">
-          <img src="img/hamgurger.svg" alt="Nav Button" class="header__hamburger-image">
+        <div class="mobile__hamburger-box">
+          <img src="img/hamgurger.svg" alt="Nav Button" class="mobile__hamburger-image">
         </div>
       </div>
       <div class="row">
-        <div class="col-12">
-          <div class="search-box">
-            <input type="search" class="search-box__input" placeholder="Search">
-          </div>
+        <div class="mobile__search-box">
+          <input type="search" class="mobile__search-input" placeholder="Search">
         </div>
       </div>
     </div>
+    <div class="row desktop breath">
+      <div class="col-6 desktop__right-nav">
+        <div class="desktop__logo-box">
+          <img src="img/logo.png" alt="Swyp Logo" class="desktop__logo">
+        </div>
+        <nav class="desktop__nav">
+          <ul class="desktop__nav-list">
+            <li class="desktop__nav-item"><a href="partners.html">Banks</a></li>
+            <li class="desktop__nav-item"><a href="#">How it works</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="col-6 desktop__left-nav">
+        <div class="desktop__search-box">
+          <input type="text" class="desktop__search-input" placeholder="Search">
+          <div class="desktop__search-img-box">
+            <img src="img/search.svg" alt="Magnifying glass" class="desktop__search-img">
+          </div>
+        </div>
+        <a href="#" class="desktop__btn">Sign Up</a>
+
+      </div>
+    </div>
   </header>
-  <main>
-    <section class="tab-head-section">
-      <div class="row">
-        <div class="col-6 tab-head tab-head--active">
-          <div class="tab-head__content">
-            <a href="#" class="tab-head__btn tab-head__btn--active">Individual</a>
-          </div>
-        </div>
-        <div class="col-6 tab-head">
-          <div class="tab-head__content">
-            <a href="#" class="tab-head__btn tab-head__btn--dull">Corporate</a>
-          </div>
-        </div>
-      </div>
+  <main class="bank-home__main">
+
+    <section class="section-title desktop u-margin-bottom--medium">
+      <h1>GT Bank</h1>
     </section>
-    <section class="tab-content-section">
-      <div class="individaul-tab-content">
+
+    <div class="mobile mob-content">
+      <section class="mob-tab-head-section">
         <div class="row">
-          <div class="col-12">
-            <div class="rectangle-box rectangle-box--registration">
-              <a href="forms.html"><span class="rectangle-box__link"></span></a>
-              <div class="rectangle-box__img-box">
-                <img src="img/registration_dull.svg" alt="Registration Image" class="rectangle-box__img">
+          <div class="mob-tab-head mob-tab-head--active">
+            <div class="mob-tab-head__content">
+              <a href="#" class="tab-head__btn tab-head__btn--active">Individual</a>
+            </div>
+          </div>
+          <div class="mob-tab-head">
+            <div class="mob-tab-head__content">
+              <a href="#" class="tab-head__btn tab-head__btn--dull">Corporate</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="mob-tab-content-section">
+        <div class="individaul-tab-content">
+          <div class="row">
+            <div class="col-12">
+              <div class="rectangle-box rectangle-box--registration">
+                <a href="forms.html"><span class="rectangle-box__link"></span></a>
+                <div class="rectangle-box__img-box">
+                  <img src="img/registration_dull.svg" alt="Registration Image" class="rectangle-box__img">
+
+                </div>
+                <div class="rectangle-box__text-box">
+                  <h3 class="tertiary-heading">Registration</h3>
+                </div>
+                <div class="rectangle-box__arrow-box">
+                  <span class="">
+                    &#62;
+                  </span>
+                </div>
 
               </div>
-              <div class="rectangle-box__text-box">
-                <h3 class="tertiary-heading">Registration</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="rectangle-box rectangle-box--mandate">
+                <a href="forms.html"><span class="rectangle-box__link"></span></a>
+                <div class="rectangle-box__img-box">
+                  <img src="img/mandate_dull.svg" alt="Mandate image" class="rectangle-box__img">
+                </div>
+                <div class="rectangle-box__text-box">
+                  <h3 class="tertiary-heading">Mandate</h3>
+                </div>
+                <div class="rectangle-box__arrow-box">
+                  <span class="">
+                    &#62;
+                  </span>
+                </div>
               </div>
-              <div class="rectangle-box__arrow-box">
-                <span class="">
-                  &#62;
-                </span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="rectangle-box rectangle-box--transfer">
+                <a href="forms.html"><span class="rectangle-box__link"></span></a>
+                <div class="rectangle-box__img-box">
+                  <img src="img/transfer_clear.svg" alt="Tansfer image" class="rectangle-box__img">
+                </div>
+                <div class="rectangle-box__text-box">
+                  <h3 class="tertiary-heading">Transfer</h3>
+                </div>
+                <div class="rectangle-box__arrow-box">
+                  <i>&#62;</i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="rectangle-box rectangle-box--account_opening">
+                <a href="forms.html"><span class="rectangle-box__link"></span></a>
+                <div class="rectangle-box__img-box">
+                  <img src="img/account_opening_dull.svg" alt="Account Opening image" class="rectangle-box__img">
+                </div>
+                <div class="rectangle-box__text-box">
+                  <h3 class="tertiary-heading">Account Opening</h3>
+                </div>
+                <div class="rectangle-box__arrow-box">
+                  <i>&#62;</i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="rectangle-box rectangle-box--change_details">
+                <a href="forms.html"><span class="rectangle-box__link"></span></a>
+                <div class="rectangle-box__img-box">
+                  <img src="img/change_details_dull.svg" alt="Change Details image" class="rectangle-box__img">
+                </div>
+                <div class="rectangle-box__text-box">
+                  <h3 class="tertiary-heading">Change Details</h3>
+                </div>
+                <div class="rectangle-box__arrow-box">
+                  <i>&#62;</i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="rectangle-box rectangle-box--internet_banking">
+                <a href="forms.html"><span class="rectangle-box__link"></span></a>
+                <div class="rectangle-box__img-box">
+                  <img src="img/internet_banking_dull.svg" alt="Internet Banking image" class="rectangle-box__img">
+                </div>
+                <div class="rectangle-box__text-box">
+                  <h3 class="tertiary-heading">Internet Banking</h3>
+                </div>
+                <div class="rectangle-box__arrow-box">
+                  <span class="">
+                    &#62;
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="rectangle-box rectangle-box--cards">
+                <a href="forms.html"><span class="rectangle-box__link"></span></a>
+                <div class="rectangle-box__img-box">
+                  <img src="img/cards_dull.svg" alt="Card image" class="rectangle-box__img">
+                </div>
+                <div class="rectangle-box__text-box">
+                  <h3 class="tertiary-heading">Cards</h3>
+                </div>
+                <div class="rectangle-box__arrow-box">
+                  <span class="">
+                    &#62;
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="rectangle-box rectangle-box--loans">
+                <a href="forms.html"><span class="rectangle-box__link"></span></a>
+                <div class="rectangle-box__img-box">
+                  <img src="img/loans_dull.svg" alt="Loans image" class="rectangle-box__img">
+                </div>
+                <div class="rectangle-box__text-box">
+                  <h3 class="tertiary-heading">Loans</h3>
+                </div>
+                <div class="rectangle-box__arrow-box">
+                  <span class="">
+                    &#62;
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="rectangle-box rectangle-box--investement">
+                <a href="forms.html"><span class="rectangle-box__link"></span></a>
+                <div class="rectangle-box__img-box">
+                  <img src="img/investement_dull.svg" alt="Investement image" class="rectangle-box__img">
+                </div>
+                <div class="rectangle-box__text-box">
+                  <h3 class="tertiary-heading">Investement</h3>
+                </div>
+                <div class="rectangle-box__arrow-box">
+                  <span class="">
+                    &#62;
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="rectangle-box rectangle-box--complaints">
+                <a href="forms.html"><span class="rectangle-box__link"></span></a>
+                <div class="rectangle-box__img-box">
+                  <img src="img/complaints_dull.svg" alt="Complaints" class="rectangle-box__img">
+                </div>
+                <div class="rectangle-box__text-box">
+                  <h3 class="tertiary-heading">Complaints</h3>
+                </div>
+                <div class="rectangle-box__arrow-box">
+                  <span class="">
+                    &#62;
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="desktop breath des-content">
+      <section class="main-content">
+        <section class="des-tab-head-section u-margin-bottom--medium">
+          <a href="#" class="des-tab-head__btn des-tab-head__btn--active u-margin-right--small">Individual</a>
+          <a href="#" class="des-tab-head__btn des-tab-head__btn--dull">Corporate</a>
+        </section>
+
+        <section class="des-tab-content-section">
+          <div class="row u-margin-bottom--small">
+            <div class="col-3">
+              <div class="form-type">
+                <a href="forms.html"><span class="rectangle-box__link"></span></a>
+                <div class="form-type__img-box">
+                  <img src="img/registration_dull.svg" class="form-type__img" alt="Registration">
+                </div>
+                <div class="form-type__text-box">
+                  <h3 class="tertiary-heading">Registration</h3>
+                </div>
               </div>
 
             </div>
+            <div class="col-3">
+              <div class="form-type">
+                <a href="forms.html"><span class="rectangle-box__link"></span></a>
+                <div class="form-type__img-box">
+                  <img src="img/mandate_dull.svg" class="form-type__img" alt="Mandate">
+                </div>
+                <div class="form-type__text-box">
+                  <h3 class="tertiary-heading">Mandate</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="form-type">
+                <a href="forms.html"><span class="rectangle-box__link"></span></a>
+                <div class="form-type__img-box">
+                  <img src="img/transfer_clear.svg" class="form-type__img" alt="Transfer">
+                </div>
+                <div class="form-type__text-box">
+                  <h3 class="tertiary-heading">Transfer</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="form-type">
+                <div class="form-type__img-box">
+                  <img src="img/account_opening_dull.svg" class="form-type__img" alt="Account Opening">
+                </div>
+                <div class="form-type__text-box">
+                  <h3 class="tertiary-heading">Account Opening</h3>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="row">
+
+          <div class="row u-margin-bottom--small">
+            <div class="col-3">
+              <div class="form-type">
+                <a href="forms.html"><span class="rectangle-box__link"></span></a>
+                <div class="form-type__img-box">
+                  <img src="img/change_details_dull.svg" class="form-type__img" alt="Change Of Details">
+                </div>
+                <div class="form-type__text-box">
+                  <h3 class="tertiary-heading">Change Of Details</h3>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-3">
+              <div class="form-type">
+                <a href="forms.html"><span class="rectangle-box__link"></span></a>
+                <div class="form-type__img-box">
+                  <img src="img/internet_banking_dull.svg" class="form-type__img" alt="Internet Banking">
+                </div>
+                <div class="form-type__text-box">
+                  <h3 class="tertiary-heading">Internet Banking</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="form-type">
+                <a href="forms.html"><span class="rectangle-box__link"></span></a>
+                <div class="form-type__img-box">
+                  <img src="img/cards_dull.svg" class="form-type__img" alt="Cards">
+                </div>
+                <div class="form-type__text-box">
+                  <h3 class="tertiary-heading">Cards</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="form-type">
+                <a href="forms.html"><span class="rectangle-box__link"></span></a>
+                <div class="form-type__img-box">
+                  <img src="img/loans_dull.svg" class="form-type__img" alt="Loans">
+                </div>
+                <div class="form-type__text-box">
+                  <h3 class="tertiary-heading">Loans</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row u-margin-bottom--medium">
+            <div class="col-3">
+              <div class="form-type">
+                <a href="forms.html"><span class="rectangle-box__link"></span></a>
+                <div class="form-type__img-box">
+                  <img src="img/investement_dull.svg" class="form-type__img" alt="Investement">
+                </div>
+                <div class="form-type__text-box">
+                  <h3 class="tertiary-heading">Investement</h3>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-3">
+              <div class="form-type">
+                <a href="forms.html"><span class="rectangle-box__link"></span></a>
+                <div class="form-type__img-box">
+                  <img src="img/complaints_dull.svg" class="form-type__img" alt="Complaints">
+                </div>
+                <div class="form-type__text-box">
+                  <h3 class="tertiary-heading">Complaints</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+
+
+      <aside class="aside">
+        <div class="row u-margin-bottom--small">
           <div class="col-12">
-            <div class="rectangle-box rectangle-box--mandate">
-              <a href="forms.html"><span class="rectangle-box__link"></span></a>
-              <div class="rectangle-box__img-box">
-                <img src="img/mandate_dull.svg" alt="Mandate image" class="rectangle-box__img">
+            <div class="form-box ">
+              <a href="forms.html"><span class="form-box__link"></span></a>
+              <div class="form-box__img-box">
+                <div class="form-box__img-innerbox">
+                  <img src="img/form.svg" alt="Registration Image" class="form-box__img">
+                </div>
               </div>
-              <div class="rectangle-box__text-box">
-                <h3 class="tertiary-heading">Mandate</h3>
+              <div class="form-box__text-box">
+                <h4 class="fourth-heading">Corporate Current Account</h4>
               </div>
-              <div class="rectangle-box__arrow-box">
-                <span class="">
-                  &#62;
-                </span>
+              <div class="form-box__timer-box">
+                <div class="form-box__timer-innerbox">
+                  <img src="img/timer.svg" alt="Registration Image" class="form-box__timer">
+                  <span class="form-box__timer-text">3min</span>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-12">
-            <div class="rectangle-box rectangle-box--transfer">
-              <a href="forms.html"><span class="rectangle-box__link"></span></a>
-              <div class="rectangle-box__img-box">
-                <img src="img/transfer_clear.svg" alt="Tansfer image" class="rectangle-box__img">
-              </div>
-              <div class="rectangle-box__text-box">
-                <h3 class="tertiary-heading">Transfer</h3>
-              </div>
-              <div class="rectangle-box__arrow-box">
-                <i>&#62;</i>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12">
-            <div class="rectangle-box rectangle-box--account_opening">
-              <a href="forms.html"><span class="rectangle-box__link"></span></a>
-              <div class="rectangle-box__img-box">
-                <img src="img/account_opening_dull.svg" alt="Account Opening image" class="rectangle-box__img">
-              </div>
-              <div class="rectangle-box__text-box">
-                <h3 class="tertiary-heading">Account Opening</h3>
-              </div>
-              <div class="rectangle-box__arrow-box">
-                <i>&#62;</i>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12">
-            <div class="rectangle-box rectangle-box--change_details">
-              <a href="forms.html"><span class="rectangle-box__link"></span></a>
-              <div class="rectangle-box__img-box">
-                <img src="img/change_details_dull.svg" alt="Change Details image" class="rectangle-box__img">
-              </div>
-              <div class="rectangle-box__text-box">
-                <h3 class="tertiary-heading">Change Details</h3>
-              </div>
-              <div class="rectangle-box__arrow-box">
-                <i>&#62;</i>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12">
-            <div class="rectangle-box rectangle-box--internet_banking">
-              <a href="forms.html"><span class="rectangle-box__link"></span></a>
-              <div class="rectangle-box__img-box">
-                <img src="img/internet_banking_dull.svg" alt="Internet Banking image" class="rectangle-box__img">
-              </div>
-              <div class="rectangle-box__text-box">
-                <h3 class="tertiary-heading">Internet Banking</h3>
-              </div>
-              <div class="rectangle-box__arrow-box">
-                <span class="">
-                  &#62;
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12">
-            <div class="rectangle-box rectangle-box--cards">
-              <a href="forms.html"><span class="rectangle-box__link"></span></a>
-              <div class="rectangle-box__img-box">
-                <img src="img/cards_dull.svg" alt="Card image" class="rectangle-box__img">
-              </div>
-              <div class="rectangle-box__text-box">
-                <h3 class="tertiary-heading">Cards</h3>
-              </div>
-              <div class="rectangle-box__arrow-box">
-                <span class="">
-                  &#62;
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12">
-            <div class="rectangle-box rectangle-box--loans">
-              <a href="forms.html"><span class="rectangle-box__link"></span></a>
-              <div class="rectangle-box__img-box">
-                <img src="img/loans_dull.svg" alt="Loans image" class="rectangle-box__img">
-              </div>
-              <div class="rectangle-box__text-box">
-                <h3 class="tertiary-heading">Loans</h3>
-              </div>
-              <div class="rectangle-box__arrow-box">
-                <span class="">
-                  &#62;
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12">
-            <div class="rectangle-box rectangle-box--investement">
-              <a href="forms.html"><span class="rectangle-box__link"></span></a>
-              <div class="rectangle-box__img-box">
-                <img src="img/investement_dull.svg" alt="Investement image" class="rectangle-box__img">
-              </div>
-              <div class="rectangle-box__text-box">
-                <h3 class="tertiary-heading">Investement</h3>
-              </div>
-              <div class="rectangle-box__arrow-box">
-                <span class="">
-                  &#62;
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12">
-            <div class="rectangle-box rectangle-box--complaints">
-              <a href="forms.html"><span class="rectangle-box__link"></span></a>
-              <div class="rectangle-box__img-box">
-                <img src="img/complaints_dull.svg" alt="Complaints" class="rectangle-box__img">
-              </div>
-              <div class="rectangle-box__text-box">
-                <h3 class="tertiary-heading">Complaints</h3>
-              </div>
-              <div class="rectangle-box__arrow-box">
-                <span class="">
-                  &#62;
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+      </aside>
+    </div>
+
+
   </main>
   <footer class="footer footer--simple">
     <div class="footer__text">

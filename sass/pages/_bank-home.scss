@@ -1,0 +1,10 @@
+.main-content {
+  width: 70%;
+  margin-right: 2rem;
+}
+
+.aside {
+  padding: 1rem;
+  background-color: $color-white;
+  width: calc(100% - 70% - 2rem);
+}

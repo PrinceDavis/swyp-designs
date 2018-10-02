@@ -9,32 +9,57 @@
   <link rel="shortcut icon" type="image/png" href="img/favicon.png">
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body>
+<body class="search-result-page">
   <header class="header">
-    <div class="header-box">
-      <div class="header__image-box">
-        <div class="header__logo-box">
-          <img src="img/logo.png" alt="Swyp Logo" class="header__logo">
+    <div class="mobile">
+      <div class="mobile__image-box">
+        <div class="mobile__logo-box">
+          <img src="img/logo.png" alt="Swyp Logo" class="mobile__logo">
         </div>
-        <div class="header__hamburger-box">
-          <img src="img/hamgurger.svg" alt="Nav Button" class="header__hamburger-image">
+        <div class="mobile__hamburger-box">
+          <img src="img/hamgurger.svg" alt="Nav Button" class="mobile__hamburger-image">
         </div>
       </div>
       <div class="row">
-        <div class="col-12">
-          <div class="search-box">
-            <input type="search" class="search-box__input" placeholder="Search">
-          </div>
+        <div class="mobile__search-box">
+          <input type="search" class="mobile__search-input" placeholder="Search">
         </div>
       </div>
     </div>
+    <div class="row desktop breath">
+      <div class="col-6 desktop__right-nav">
+        <div class="desktop__logo-box">
+          <img src="img/logo.png" alt="Swyp Logo" class="desktop__logo">
+        </div>
+        <nav class="desktop__nav">
+          <ul class="desktop__nav-list">
+            <li class="desktop__nav-item"><a href="partners.html">Banks</a></li>
+            <li class="desktop__nav-item"><a href="#">How it works</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="col-6 desktop__left-nav">
+        <div class="desktop__search-box">
+          <input type="text" class="desktop__search-input" placeholder="Search">
+          <div class="desktop__search-img-box">
+            <img src="img/search.svg" alt="Magnifying glass" class="desktop__search-img">
+          </div>
+        </div>
+        <a href="#" class="desktop__btn">Sign Up</a>
+
+      </div>
+    </div>
   </header>
-  <main>
+  <main class="search-result-page__main">
+    <section class="section-title desktop u-margin-bottom--medium">
+      <h1>Search Result</h1>
+    </section>
     <section class="banks-section">
       <div class="row u-margin-bottom--small">
-        <div class="col-6-margin u-margin-right--small">
+        <div class="col-2">
           <div class="bank-box">
 
             <div class="bank-box__logo">
@@ -50,7 +75,7 @@
             </div>
           </div>
         </div>
-        <div class="col-6-margin">
+        <div class="col-2">
           <div class="bank-box">
 
             <div class="bank-box__logo">
@@ -66,9 +91,7 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="row u-margin-bottom--small">
-        <div class="col-6-margin u-margin-right--small">
+        <div class="col-2">
           <div class="bank-box">
 
             <div class="bank-box__logo">
@@ -78,6 +101,22 @@
               <h3 class="tertiary-heading">Account Opening</h3>
             </div>
             <div class="bank-box__footer">
+              <a href="bankhome.html" class="btn-text bank-box__link">
+                <i class="">&rarr;</i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="bank-box">
+
+            <div class="bank-box__logo">
+              <img src="img/internet_banking_clear.svg" class="bank-box__img" alt="Union logo">
+            </div>
+            <div class="bank-box__header u-margin-bottom--thin">
+              <h3 class="tertiary-heading">Internet Banking</h3>
+            </div>
+            <div class="bank-box__footer  u-margin-bottom--thin">
               <a href="bankhome.html" class="btn-text bank-box__link">
                 <i class="">&rarr;</i>
               </a>

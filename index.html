@@ -9,48 +9,68 @@
   <link rel="shortcut icon" type="image/png" href="img/favicon.png">
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
   <header class="header">
-    <div class="header-box">
-      <div class="header__image-box">
-        <div class="header__logo-box">
-          <img src="img/logo.png" alt="Swyp Logo" class="header__logo">
+    <div class="mobile">
+      <div class="mobile__image-box">
+        <div class="mobile__logo-box">
+          <img src="img/logo.png" alt="Swyp Logo" class="mobile__logo">
         </div>
-        <div class="header__hamburger-box">
-          <img src="img/hamgurger.svg" alt="Nav Button" class="header__hamburger-image">
+        <div class="mobile__hamburger-box">
+          <img src="img/hamgurger.svg" alt="Nav Button" class="mobile__hamburger-image">
         </div>
       </div>
       <div class="row">
-        <div class="col-12">
-          <div class="search-box">
-            <input type="search" class="search-box__input" placeholder="Search">
+        <div class="mobile__search-box">
+          <input type="search" class="mobile__search-input" placeholder="Search">
+        </div>
+      </div>
+    </div>
+    <div class="row desktop">
+      <div class="col-6 desktop__right-nav">
+        <div class="desktop__logo-box">
+          <img src="img/logo.png" alt="Swyp Logo" class="desktop__logo">
+        </div>
+        <nav class="desktop__nav">
+          <ul class="desktop__nav-list">
+            <li class="desktop__nav-item"><a href="partners.html">Banks</a></li>
+            <li class="desktop__nav-item"><a href="#">How it works</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="col-6 desktop__left-nav">
+        <div class="desktop__search-box">
+          <input type="text" class="desktop__search-input" placeholder="Search">
+          <div class="desktop__search-img-box">
+            <img src="img/search.svg" alt="Magnifying glass" class="desktop__search-img">
           </div>
         </div>
+        <a href="#" class="desktop__btn">Sign Up</a>
+
       </div>
     </div>
   </header>
   <main>
-    <section class="hero-section u-margin-bottom--medium u-padding--small">
-      <div class="row">
-        <div class="col-6 col--mobile u-margin-bottom--small">
-          <div class="hero-image-box">
-            <img src="img/mobile-hero.svg" alt="Hero Image" class="hero-image-box__picture">
+    <section class="hero-section u-margin-bottom--medium">
+      <div class="hero">
+        <div class="hero__image-box">
+          <div class="hero__images">
+            <img src="img/mobile_hero.svg" alt="Hero Image" class="hero__mobile-picture">
+            <img src="img/desktop_hero.svg" alt="Hero Image" class="hero__desktop-picture">
           </div>
         </div>
-        <div class="col-6 col--mobile">
-          <div class="hero-text-box">
-            <h1 class="primary-heading u-margin-bottom--small">
-              <h1 class="primary-heading u-margin-bottom--small">
-                <span class="primary-heading__main">Queueing is stressful</span>
-                <span class="primary-heading__sub">
-                  We made swyp to ensure you never get to experience queueing, filling
-                  boring bank forms & completing transactions in bank halls again.
-                </span>
-              </h1>
-              <a href="partners.html" class="btn btn--primary">Get Started</a>
-          </div>
+        <div class="hero__text-box">
+          <h1 class="primary-heading u-margin-bottom--small">
+            <span class="primary-heading__main">Queueing is stressful</span>
+            <span class="primary-heading__sub">
+              We made swyp to ensure you never get to experience queueing, filling
+              boring bank forms & completing transactions in bank halls again.
+            </span>
+          </h1>
+          <a href="partners.html" class="btn btn--primary">Get Started</a>
         </div>
       </div>
     </section>
@@ -58,22 +78,37 @@
       <div class="u-center-text u-margin-bottom--small">
         <h2 class="secondary-heading">Our Partners</h2>
       </div>
-      <div class="partners-box">
-        <div class="slideshow-box">
-          <div class="slideshow-box__slide fade">
-            <div class="row">
-              <div class="col-6-margin u-margin-right--small">
-                <img src="img/bank-logo-gt.png" class="slideshow-box__image">
+      <div class="partners">
+        <div class="partners-box">
+          <div class="partners-box__slide slide-on-mobile fade">
+            <div class="partner">
+              <div class="partner__img-box">
+                <img src="img/bank-logo-gt.png" class="partner__image">
               </div>
-              <div class="col-6-margin">
-                <img src="img/bank-logo-union.png" class="slideshow-box__image">
+            </div>
+            <div class="partner">
+              <div class="partner__img-box">
+                <img src="img/bank-logo-union.png" class="partner__image">
               </div>
             </div>
           </div>
-          <!-- Next and previous buttons -->
-          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          <div class="partners-box__slide slide-on-mobile fade">
+            <div class="partner">
+              <div class="partner__img-box">
+                <img src="img/bank-logo-gt.png" class="partner__image">
+              </div>
+            </div>
+            <div class="partner">
+              <div class="partner__img-box">
+                <img src="img/bank-logo-union.png" class="partner__image">
+              </div>
+            </div>
+          </div>
         </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
       </div>
     </section>
     <section class="features-section">
@@ -126,7 +161,6 @@
         </div>
         <div class="col-4 col--mobile">
           <div class="feature u-margin-bottom--small">
-
             <div class="u-margin-bottom--small">
               <div class="feature__img-level-3-box">
                 <div class="feature__img-level-2-box">
@@ -154,24 +188,47 @@
     </section>
   </main>
   <footer class="footer">
-    <div class="footer__menu">
-      <div class="row">
-        <div class="col-6">
-          <div class="footer__menu-item-box">
-            <a href="" class="footer__menu-item footer__menu-item--right-border">Why Swyp?</a>
-          </div>
+
+    <div class="footer__menu footer-mobile">
+      <section class="footer__menu-box">
+        <div class="footer__menu-item-box">
+          <a href="" class="footer__menu-item footer__menu-item--right-border">Why Swyp?</a>
         </div>
-        <div class="col-6">
-          <div class="footer__menu-item-box">
-            <a href="" class="footer__menu-item">FAQ</a>
-          </div>
+        <div class="footer__menu-item-box">
+          <a href="" class="footer__menu-item">FAQ</a>
         </div>
-      </div>
+      </section>
+      <section class="footer__social">
+        <div class="footer__social-box">
+          <a href=""><i class="fa fa-facebook"></i></a>
+          <a href=""><i class="fa fa-twitter"></i></a>
+          <a href=""><i class="fa fa-linkedin"></i></a>
+        </div>
+      </section>
     </div>
-    <div class="social">
-      <a href=""><i class="icon-basic-facebook"></i></a>
-      <a href=""><i class="icon-basic-twitter"></i></a>
-      <a href=""><i class="icon-basic-linkedin"></i></a>
+
+    <div class="footer__menu footer-desktop">
+      <div class="row">
+        <section class="col-4">
+          <div class="footer-desktop__links">
+            <a href="" class="footer-desktop__menu-item">Why Swyp?</a>
+            <a href="" class="ffooter-desktop__menu-item">FAQ</a>
+          </div>
+
+        </section>
+        <section class="col-4">
+          <div class="footer-desktop__copy-right-box">
+            <p class="footer-desktop__copy-right-text"> &copy;2018 Swyp All rights Reserved </p>
+          </div>
+        </section>
+        <section class="col-4">
+          <div class="footer-desktop__social">
+            <a href=""><i class="fa fa-facebook"></i></a>
+            <a href=""><i class="fa fa-twitter"></i></a>
+            <a href=""><i class="fa fa-linkedin"></i></a>
+          </div>
+        </section>
+      </div>
     </div>
   </footer>
   <script src="js/app.js"></script>

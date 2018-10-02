@@ -1,25 +1,27 @@
 .form-box {
-  height: 7rem;
+  height: 6rem;
   display: flex;
   width: 90%;
   margin: 0 auto;
   border-radius: 3px;
-  box-shadow: 1rem 1rem 3rem rgba($color-black, 0.2);
+  box-shadow: 0rem 0.5rem 2rem rgba(14, 14, 14, 0.2);
 
   &__img-box {
     width: 13%;
+    border-radius: 3px;
     background-color: $color-gray;
   }
 
   &__img-innerbox {
     width: 4rem;
     margin: 0 auto;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
   }
 
   &__img {
     height: 4rem;
     width: 4rem;
+    transform: scale(0.6);
   }
 
   &__text-box {
@@ -43,6 +45,7 @@
   }
 
   &__timer-text {
+    font-size: 1.2rem;
     position: absolute;
     left: 1.8rem;
     top: 2.4rem;

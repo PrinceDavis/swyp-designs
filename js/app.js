@@ -12,13 +12,15 @@ function currentSlide(n) {
 }
 
 function showSlides(n) {
+  var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+  if(w > 800) return;
   var i;
-  var slides = document.getElementsByClassName("slideshow-box__slide");
+  var slides = document.getElementsByClassName("slide-on-mobile");
   if (n > slides.length) {slideIndex = 1} 
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none"; 
   }
  
-  slides[slideIndex-1].style.display = "block"; 
+  slides[slideIndex-1].style.display = "inherit"; 
 }

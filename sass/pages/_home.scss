@@ -1,21 +1,15 @@
-.header-box {
-  padding-top: 2rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
 .hero-section {
-  .hero-text-box {
-    text-align: center;
-  }
+  padding: 0 3rem;
 }
 
 .partners-section {
-  padding: 5rem 2rem;
+  padding: 0 2rem;
 }
 
 .features-section {
   padding: $padding-small 0;
   color: $color-white;
   font-family: "lato";
-  background-image: url(../img/mobile-background.svg);
+  background-size: cover;
+  background-image: url(../img/mobile_background.svg);
 }

@@ -1,0 +1,13 @@
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+
+  &__image-box,
+  &__text-box {
+    width: 100%;
+  }
+
+  &__text-box {
+    text-align: center;
+  }
+}

@@ -85,3 +85,10 @@
     border: 1px solid $color-secondary;
   }
 }
+
+.des-tab-head__btn {
+  &--active {
+    padding: 2rem 3rem;
+    background-color: $color-white;
+  }
+}

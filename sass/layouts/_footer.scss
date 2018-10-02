@@ -1,6 +1,21 @@
 .footer {
   font-size: $default-font;
 
+  &__menu-box {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+  }
+
+  &__social {
+    width: 100%;
+
+    &-box {
+      width: 19%;
+      margin: 0 auto;
+    }
+  }
+
   &--simple {
     height: 8rem;
   }
@@ -8,6 +23,7 @@
   &__menu-item-box {
     position: relative;
     height: 4rem;
+    width: 50%;
     border-bottom: 1px solid $color-gray-light;
   }
 
@@ -42,7 +58,42 @@
     top: 3.8rem;
     left: 7.5rem;
   }
+
   &__img {
     height: 4.5rem;
   }
+}
+
+.footer-desktop {
+  &__links {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  &__menu-item {
+    display: inline-block;
+    &:not(:last-child) {
+      margin-right: 1rem;
+    }
+  }
+
+  &__copy-right-box {
+    width: 62%;
+    margin: 0 auto;
+  }
+
+  &__social {
+    width: 18%;
+    margin: 0 auto;
+  }
+}
+
+.fa {
+  height: 2rem;
+  width: 2rem;
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-radius: 1rem;
+  padding-top: 0.3rem;
 }

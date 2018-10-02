@@ -8,18 +8,26 @@
 @import "base/utilities";
 
 @import "layouts/grid";
-@import "layouts/mobile";
 @import "layouts/header";
 @import "layouts/footer";
 
+@import "components/hero";
 @import "components/button";
-@import "components/carousel";
+@import "components/partner";
 @import "components/feature";
 @import "components/bank-box";
 @import "components/tab-head";
+@import "components/form-type";
 @import "components/rectangle-box";
 @import "components/form";
 @import "components/pagination";
+@import "components/aside";
+@import "components/mobile";
+@import "components/desktop";
 
 @import "pages/home";
 @import "pages/partners";
+@import "pages/bank-home";
+
+@import "layouts/mobile";
+@import "layouts/desktop";
