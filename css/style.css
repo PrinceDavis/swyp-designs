@@ -748,6 +748,23 @@ body {
   width: calc(100% - 70% - 2rem);
   color: #0e0e0e; }
 
+.thank-you__main .related-forms {
+  padding: 0 3rem; }
+
+.thank-you__img-box {
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 2rem; }
+
+.thank-you__img {
+  width: 100%;
+  height: 32rem;
+  margin-left: 2rem; }
+
+.thank-you__text-box {
+  margin: 0 auto;
+  text-align: center; }
+
 @media screen and (max-width: 800px) {
   .des-content {
     display: none; }
@@ -786,7 +803,8 @@ body {
   .bank-home,
   .partners-page,
   .form-page,
-  .search-result-page {
+  .search-result-page,
+  .thank-you {
     background-color: #f4f4f6; }
   .mob-content {
     display: none; }
@@ -841,4 +859,18 @@ body {
     .form-box__img {
       transform: scale(0.8); }
   .pagination {
-    width: 17%; } }
+    width: 17%; }
+  .thank-you__img-box {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 2rem; }
+  .thank-you__img {
+    width: 100%;
+    height: 32rem;
+    margin-left: 5rem; }
+  .thank-you__text-box {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center; }
+  .footer__text {
+    width: 13%; } }
