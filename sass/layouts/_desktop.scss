@@ -26,6 +26,14 @@
     display: none;
   }
 
+  // General
+  .bank-home,
+  .partners-page,
+  .form-page,
+  .search-result-page {
+    background-color: $color-tertiary;
+  }
+
   // Home page
   .mob-content {
     display: none;
@@ -89,13 +97,16 @@
 
   // Partner page
 
+  .partners-page {
+    .bank-box {
+      .tertiary-heading {
+        font-size: 2.5rem;
+      }
+    }
+  }
   .bank-box {
     height: 19rem;
     padding-top: 2rem;
-
-    .tertiary-heading {
-      font-size: 2.5rem;
-    }
 
     &__footer {
       width: 42%;
@@ -115,8 +126,6 @@
 
   // Bank home
   .bank-home {
-    background-color: mintcream;
-
     &__main {
       .desktop-contents {
         display: flex;

@@ -42,11 +42,8 @@
       border: 1.3px solid $color-gray-light;
       border-right: 0;
       padding: 1rem;
-      // border-radius: 0.4rem;
-      // background-image: url(../img/search.svg);
-      // background-repeat: no-repeat;
-      // background-position: right;
     }
+
     &__search-img-box {
       width: 7%;
       height: 4rem;
@@ -104,6 +101,7 @@
       height: 2.5rem;
       outline: none;
       border-bottom: 2px solid $color-black;
+      background-color: $color-tertiary;
 
       &::-webkit-input-placeholder {
         color: $color-gray;
