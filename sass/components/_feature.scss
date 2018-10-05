@@ -2,8 +2,8 @@
   font-size: $default-font;
 
   &__img-level-3-box {
-    height: 13rem;
-    width: 13rem;
+    height: 12rem;
+    width: 12rem;
     margin: 0 auto;
     border-radius: 2.5rem;
     background-color: $color-primary;
@@ -12,8 +12,8 @@
   }
 
   &__img-level-2-box {
-    height: 11rem;
-    width: 11rem;
+    height: 10rem;
+    width: 10rem;
     position: absolute;
     background-color: $color-white;
     top: 50%;
@@ -33,12 +33,15 @@
 
   &__img {
     height: 100%;
-    width: 70%;
     display: block;
     margin: 0 auto;
+
+    &--1 {
+      width: 5.5rem;
+    }
   }
 
-  &__text-box {
+  &__heading-box {
     width: 90%;
     margin: 0 auto;
   }
@@ -47,8 +50,13 @@
     text-align: center;
   }
 
+  &__paragraph-box {
+    width: 88%;
+    margin: 0 auto;
+  }
+
   &__paragraph {
-    text-align: justify;
+    text-align: center;
     font-weight: 300;
   }
 }

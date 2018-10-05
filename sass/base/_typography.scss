@@ -17,15 +17,14 @@ body {
   &__sub {
     display: block;
     font-weight: 400;
-    font-size: $default-font;
-    letter-spacing: -1px;
+    font-size: 1.55rem;
     text-align: justify;
   }
 }
 
 .secondary-heading {
   font-family: "Source Sans Pro";
-  font-size: 2rem;
+  font-size: 1.8rem;
   text-transform: uppercase;
   font-weight: 600;
 }

@@ -1,5 +1,6 @@
 .footer {
   font-size: $default-font;
+  margin-bottom: 2rem;
 
   &__menu-box {
     display: flex;
@@ -11,7 +12,7 @@
     width: 100%;
 
     &-box {
-      width: 19%;
+      width: 24%;
       margin: 0 auto;
     }
   }
@@ -22,15 +23,16 @@
 
   &__menu-item-box {
     position: relative;
-    height: 4rem;
+    height: 5rem;
     width: 50%;
+    border-top: 1px solid $color-gray-light;
     border-bottom: 1px solid $color-gray-light;
   }
 
   &__menu-item {
-    height: 4rem;
+    height: 5rem;
     padding-top: 1rem;
-    color: $color-black;
+    color: $color-black-light;
 
     display: block;
     text-align: center;
@@ -89,9 +91,9 @@
 }
 
 .fa {
-  height: 2rem;
-  width: 2rem;
-  background-color: black;
+  height: 2.4rem;
+  width: 2.4rem;
+  background-color: $color-black-light;
   color: white;
   text-align: center;
   border-radius: 1rem;

@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body>
+<body class="home-page">
   <header class="header">
     <div class="header-mobile mob-content">
       <div class="header-mobile__image-box">
@@ -36,7 +36,9 @@
     <div class="row header-desktop des-content">
       <div class="col-6 header-desktop__right-nav">
         <div class="header-desktop__logo-box">
-          <img src="img/logo.png" alt="Swyp Logo" class="header-desktop__logo">
+          <a href="/">
+            <img src="img/logo.png" alt="Swyp Logo" class="header-desktop__logo">
+          </a>
         </div>
         <nav class="header-desktop__nav">
           <ul class="header-desktop__nav-list">
@@ -57,7 +59,7 @@
       </div>
     </div>
   </header>
-  <main>
+  <main class="home-page__main">
     <section class="hero-section u-margin-bottom--medium">
       <div class="hero">
         <div class="hero__image-box">
@@ -70,7 +72,7 @@
           <h1 class="primary-heading u-margin-bottom--small">
             <span class="primary-heading__main">Queueing is stressful</span>
             <span class="primary-heading__sub">
-              We made swyp to ensure you never get to experience queueing, filling
+              We made swyp to ensure you never get to experience, filling
               boring bank forms & completing transactions in bank halls again.
             </span>
           </h1>
@@ -79,7 +81,7 @@
       </div>
     </section>
     <section class="partners-section u-margin-bottom--medium">
-      <div class="u-center-text u-margin-bottom--small">
+      <div class="u-center-text">
         <h2 class="secondary-heading">Our Partners</h2>
       </div>
       <div class="partners">
@@ -87,7 +89,7 @@
           <div class="partners-box__slide slide-on-mobile fade">
             <div class="partner">
               <div class="partner__img-box">
-                <img src="img/bank-logo-gt.png" class="partner__image">
+                <img src="img/bank-logo-gtb.png" class="partner__image">
               </div>
             </div>
             <div class="partner">
@@ -99,12 +101,12 @@
           <div class="partners-box__slide slide-on-mobile fade">
             <div class="partner">
               <div class="partner__img-box">
-                <img src="img/bank-logo-gt.png" class="partner__image">
+                <img src="img/bank-logo-diamond.png" class="partner__image">
               </div>
             </div>
             <div class="partner">
               <div class="partner__img-box">
-                <img src="img/bank-logo-union.png" class="partner__image">
+                <img src="img/bank-logo-first.png" class="partner__image">
               </div>
             </div>
           </div>
@@ -116,8 +118,8 @@
       </div>
     </section>
     <section class="features-section">
-      <div class="u-center-text u-margin-bottom--small">
-        <h2 class="secondary-heading ">Swyp Benefits</h2>
+      <div class="u-center-text u-margin-bottom--small feature-heading">
+        <h2 class="secondary-heading">Swyp Benefits</h2>
       </div>
       <div class="row">
         <div class="col-4 col--mobile">
@@ -126,7 +128,7 @@
               <div class="feature__img-level-3-box">
                 <div class="feature__img-level-2-box">
                   <div class="feature__img-innerbox">
-                    <img src="img/feature-1.svg" alt="Feature 1 image" class="feature__img">
+                    <img src="img/feature-1.svg" alt="Feature 1 image" class="feature__img feature__img--1">
                   </div>
                 </div>
               </div>
@@ -152,9 +154,10 @@
               </div>
             </div>
 
-            <div class="feature__text-box">
+            <div class="feature__heading-box">
               <h3 class="tertiary-heading feature__heading">All bank forms under one roof</h3>
-
+            </div>
+            <div class="feature__paragraph-box">
               <p class="feature__paragraph">
                 No need to go to different banks to update BVN, with swyp you can provide all your banks need
                 information
