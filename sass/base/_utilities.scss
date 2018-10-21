@@ -1,5 +1,5 @@
 .u-center-text {
-  text-align: center;
+  text-align: center !important;
 }
 
 .section-title {
@@ -8,13 +8,25 @@
   width: 100%;
   height: 10rem;
   text-align: center;
-  background-color: $color-gray;
+  background-color: $color-black;
   color: $color-white;
 }
 
+// .form-page,
+// .bank-home,
+// .search-result-page {
+//   .section-title {
+//     color: $color-black;
+//   }
+// }
+
 .breath {
-  padding: 0 3rem;
+  padding: 0 12rem;
   padding-top: 3rem;
+}
+
+.u-margin-bottom--big {
+  margin-bottom: $big-gutter;
 }
 
 .u-margin-bottom--medium {
@@ -35,4 +47,8 @@
 
 .u-padding--small {
   padding: $small-gutter;
+}
+
+.u-padding--horizontal {
+  padding: 0 12rem !important;
 }

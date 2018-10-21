@@ -1,4 +1,4 @@
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
   .des-content {
     display: none;
   }
@@ -22,6 +22,10 @@
     margin-bottom: 2rem;
   }
 
+  .u-padding--horizontal {
+    padding: 0 2rem !important;
+  }
+
   .footer-desktop {
     display: none;
   }
@@ -33,8 +37,31 @@
     }
   }
 
+  // Form page
+  .form-page {
+    &__main {
+      .forms-section {
+        padding: 0 !important;
+      }
+    }
+  }
+
   // Search Result
   .bank-box__logo {
     padding-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .des-content {
+    display: none;
+  }
+
+  .hero__desktop-picture {
+    display: none;
+  }
+
+  .footer-desktop {
+    display: none;
   }
 }

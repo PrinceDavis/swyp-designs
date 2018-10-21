@@ -1,3 +1,11 @@
+.form-page {
+  &__main {
+    .section-title {
+      color: $color-black;
+    }
+  }
+}
+
 .form-box {
   height: 6rem;
   display: flex;

@@ -16,10 +16,7 @@
 }
 
 .col-3 {
-  width: calc((100% - 4rem) / 3);
-  &:not(:last-child) {
-    margin-right: 2rem;
-  }
+  width: calc(100% / 4);
 }
 
 .col-4 {

@@ -1,12 +1,12 @@
 .form-type {
-  box-shadow: 0 0.5rem 2rem rgba(14, 14, 14, 0.1);
+  width: 88%;
   padding-top: 5rem;
   background-color: $color-white;
   height: 19rem;
   position: relative;
   border-radius: 5px;
   &__img-box {
-    width: 40%;
+    width: 32%;
     margin: 0 auto;
     margin-bottom: 1rem;
   }
@@ -24,7 +24,7 @@
   }
 
   &--registration:hover {
-    background-color: $color-gray;
+    box-shadow: 0 0.5rem 2rem rgba(14, 14, 14, 0.1);
     color: $color-black;
     .form-type__img {
       content: url(../img/registration_clear.svg);
@@ -32,7 +32,7 @@
   }
 
   &--mandate:hover {
-    background-color: $color-gray;
+    box-shadow: 0 0.5rem 2rem rgba(14, 14, 14, 0.1);
     color: $color-black;
     .form-type__img {
       content: url(../img/mandate_clear.svg);
@@ -40,7 +40,7 @@
   }
 
   &--transfer:hover {
-    background-color: $color-gray;
+    box-shadow: 0 0.5rem 2rem rgba(14, 14, 14, 0.1);
     color: $color-black;
     .form-type__img {
       content: url(../img/transfer_clear.svg);
@@ -48,7 +48,7 @@
   }
 
   &--account_opening:hover {
-    background-color: $color-gray;
+    box-shadow: 0 0.5rem 2rem rgba(14, 14, 14, 0.1);
     color: $color-black;
     .form-type__img {
       content: url(../img/account_opening_clear.svg);
@@ -56,7 +56,7 @@
   }
 
   &--change_details:hover {
-    background-color: $color-gray;
+    box-shadow: 0 0.5rem 2rem rgba(14, 14, 14, 0.1);
     color: $color-black;
     .form-type__img {
       content: url(../img/change_details_clear.svg);
@@ -64,7 +64,7 @@
   }
 
   &--internet_banking:hover {
-    background-color: $color-gray;
+    box-shadow: 0 0.5rem 2rem rgba(14, 14, 14, 0.1);
     color: $color-black;
     .form-type__img {
       content: url(../img/internet_banking_clear.svg);
@@ -72,7 +72,7 @@
   }
 
   &--cards:hover {
-    background-color: $color-gray;
+    box-shadow: 0 0.5rem 2rem rgba(14, 14, 14, 0.1);
     color: $color-black;
     .form-type__img {
       content: url(../img/cards_clear.svg);
@@ -80,7 +80,7 @@
   }
 
   &--loans:hover {
-    background-color: $color-gray;
+    box-shadow: 0 0.5rem 2rem rgba(14, 14, 14, 0.1);
     color: $color-black;
     .form-type__img {
       content: url(../img/loans_clear.svg);
@@ -88,7 +88,7 @@
   }
 
   &--investement:hover {
-    background-color: $color-gray;
+    box-shadow: 0 0.5rem 2rem rgba(14, 14, 14, 0.1);
     color: $color-black;
     .form-type__img {
       content: url(../img/investement_clear.svg);
@@ -96,7 +96,7 @@
   }
 
   &--complaints:hover {
-    background-color: $color-gray;
+    box-shadow: 0 0.5rem 2rem rgba(14, 14, 14, 0.1);
     color: $color-black;
     .form-type__img {
       content: url(../img/complaints_clear.svg);

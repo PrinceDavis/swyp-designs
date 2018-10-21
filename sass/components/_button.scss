@@ -43,7 +43,7 @@
   &:hover,
   &:focus {
     transform: translateY(-0.3rem);
-    box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
+    box-shadow: 0 0.5rem 1rem rgba($color-black, 0.1);
     border: 1px solid $color-secondary;
   }
 
@@ -69,7 +69,7 @@
   }
 
   &--dull {
-    color: $color-gray;
+    color: $color-gray-light;
   }
 
   &:hover,
@@ -90,5 +90,9 @@
   &--active {
     padding: 2rem 3rem;
     background-color: $color-white;
+  }
+
+  &--dull {
+    color: $color-gray;
   }
 }

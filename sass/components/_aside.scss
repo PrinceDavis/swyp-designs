@@ -1,4 +1,8 @@
 .aside {
+  padding: 2rem;
+  background-color: $color-white;
+  width: calc(100% - 70% - 2rem);
+  color: $color-black;
   .form-box {
     width: 100%;
   }
@@ -6,5 +10,12 @@
   .form-box__timer-innerbox {
     margin-left: 0;
     padding-top: 0.5rem;
+  }
+  .form-box__text-box {
+    width: 75%;
+  }
+
+  .form-box__timer-box {
+    width: 15%;
   }
 }
